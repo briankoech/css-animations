@@ -1,11 +1,32 @@
-.box {
-  height: 100px;
-  width: 100px;
-  background-color: red;
+.square {
+  width: 250px;
+  height: 250px;
+  margin: 1rem 0 2rem 1rem;
+  background-color: blue;
+}
+/* Blue to green */
+#color .square {
+  -webkit-transition: background-color 5s;
+  -moz-transition: background-color 5s;
+  -o-transition: background-color 5s;
+  -ms-transition: background-color 5s;
+  transition: background-color 5s;
 }
 
-.box:hover {
-  height: 100px;
-  width: 100px;
-  background-color: blue;
+#color .square:hover {
+  background-color: green;
+}
+
+/* Square to circle */
+#circle .square {
+  -webkit-transition: border-radius 2s 5s, background-color 3s 2s;
+  -moz-transition: border-radius 2s 5s, background-color 3s 2s;
+  -o-transition: border-radius 2s 5s, background-color 3s 2s;
+  -ms-transition: border-radius 2s 5s, background-color 3s 2s;
+  transition: border-radius 2s 5s, background-color 3s 2s;
+}
+
+#circle .square:hover {
+  border-radius: 50%;
+  background-color: purple;
 }
