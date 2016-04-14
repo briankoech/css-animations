@@ -1,0 +1,21 @@
+
+.rider {
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  -webkit-transition: transform 5s 1s cubic-bezier(.66, 0, 0, 1.29);
+  -moz-transition: transform 5s 1s cubic-bezier(.66, 0, 0, 1.29);
+  -ms-transition: transform 5s 1s cubic-bezier(.66, 0, 0, 1.29);
+  -o-transition: transform 5s 1s cubic-bezier(.66, 0, 0, 1.29);
+  transition: transform 5s 1s cubic-bezier(.66, 0, 0, 1.29);
+  
+}
+
+.rider:hover {
+  -webkit-transform: translateX(1700px);
+  -moz-transform: translateX(1700px);
+  -ms-transform: translateX(1700px);
+  -o-transform: translateX(1700px);
+  transform: translateX(1700px);
+  
+}
