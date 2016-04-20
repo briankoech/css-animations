@@ -29,6 +29,24 @@ section, h1 {
   position: relative;
 }
 
+.skew {
+  border: 2px solid red;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: #ffccff;
+  }
+  .square {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+  }
+  .skew {
+    border-radius: 5px;
+  }
+}
+
 /* The skew() method */
 #skew .square {
   background-color: purple;
